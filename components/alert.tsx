@@ -32,7 +32,7 @@ const Alert = ({ preview }: Props) => {
               The source code for this blog is{" "}
               <a
                 href={`https://github.com/trangnminh/next-blog-starter`}
-                className="underline transition-colors duration-200 hover:bg-black hover:text-white"
+                className="underline transition-colors duration-200 hover:text-blue-600"
               >
                 available on GitHub
               </a>

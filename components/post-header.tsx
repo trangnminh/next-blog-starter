@@ -25,7 +25,7 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
         <div className="mb-6 block md:hidden">
           <Avatar name={author.name} picture={author.picture} />
         </div>
-        <div className="mb-6 text-lg">
+        <div className="mb-6 text-lg italic">
           <DateFormatter dateString={date} />
         </div>
       </div>

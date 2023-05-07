@@ -10,7 +10,7 @@ const Intro = () => {
         These{" "}
         <a
           href="https://www.youtube.com/watch?v=gJ50rvySDCk"
-          className="underline transition-colors duration-200 hover:bg-black hover:text-white"
+          className="bg-black text-white no-underline transition-all duration-200 hover:bg-white hover:text-black hover:underline"
         >
           chains
         </a>{" "}

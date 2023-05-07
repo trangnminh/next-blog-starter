@@ -4,7 +4,7 @@ import Container from "../components/container";
 import HeroPost from "../components/hero-post";
 import Intro from "../components/intro";
 import Layout from "../components/layout";
-import MoreStories from "../components/more-stories";
+import MorePosts from "../components/more-posts";
 import Post from "../interfaces/post";
 import { getAllPosts } from "../lib/api";
 import { BLOG_NAME } from "../lib/constants";
@@ -34,7 +34,7 @@ export default function Index({ allPosts }: Props) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {morePosts.length > 0 && <MorePosts posts={morePosts} />}
         </Container>
       </Layout>
     </>

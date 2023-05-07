@@ -38,7 +38,7 @@ const HeroPost = ({
               {title}
             </Link>
           </h3>
-          <div className="mb-4 text-lg md:mb-0">
+          <div className="mb-4 text-lg italic md:mb-0">
             <DateFormatter dateString={date} />
           </div>
         </div>
