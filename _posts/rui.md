@@ -1,6 +1,6 @@
 ---
 title: "Rui of the clouds"
-excerpt: "in my dreams of faraway land..."
+excerpt: "In my dreams of faraway land..."
 coverImage: "/assets/blog/covers/rui.jpg"
 date: "2023-03-11T23:00:00+07:00"
 author:
